@@ -1,0 +1,41 @@
+{
+  "name": "decimalToBinaryFromBen",
+  "displayName": "decimal to binary",
+  "description": "quick check what binray from decimal ",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.53.0"
+  },
+  "publisher": "Ben-hu",
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:decimalToBinaryFromBen.helloWorld"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "decimalToBinaryFromBen.helloWorld",
+        "title": "decimal To Binary"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.53.0",
+    "@types/glob": "^7.1.3",
+    "@types/mocha": "^8.0.4",
+    "@types/node": "^12.11.7",
+    "eslint": "^7.19.0",
+    "glob": "^7.1.6",
+    "mocha": "^8.2.1",
+    "typescript": "^4.1.3",
+    "vscode-test": "^1.5.0"
+  }
+}
