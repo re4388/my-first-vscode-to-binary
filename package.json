@@ -10,6 +10,10 @@
   "categories": [
     "Other"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/re4388/my-first-vscode-to-binary"
+  },
   "activationEvents": [
     "onCommand:decimalToBinaryFromBen.helloWorld"
   ],
